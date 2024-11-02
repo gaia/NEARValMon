@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+# Provided as is by FreshSTAKING. No warranties on anything.
+
 import json
 import http.client
 import time
