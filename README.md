@@ -1,6 +1,6 @@
 # Validator Monitor
 
-A python script for monitoring NEAR Protocol validator performance, tracking blocks and chunks production. Runs by default non stop on a timed interval. If you want to get alerts on your validator underperforming, the easiest way to do it is to use with the `--single-run` & `--quiet` mode, while specifying your validator via `--val-id`. Then have ([urlwatch](https://github.com/thp/urlwatch)) call the script and alert you only when the results displayed changed (which will alert when the epoch turns and you've missed any blocks/chunks or every time your miss count changes during an epoch).
+A python script for monitoring NEAR Protocol validator performance, tracking blocks and chunks production. Runs by default non stop on a timed interval. If you want to get alerts on your validator underperforming, the easiest way to do it is to use with the `--single-run` & `--quiet` mode, while specifying your validator via `--val-id`. Then have [urlwatch](https://github.com/thp/urlwatch) call the script and alert you only when the results displayed changed (which will alert when the epoch turns and you've missed any blocks/chunks or every time your miss count changes during an epoch).
 
 ## Prerequisites
 
